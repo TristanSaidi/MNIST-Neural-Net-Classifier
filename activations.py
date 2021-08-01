@@ -24,7 +24,7 @@ def sigmoid_backprop(dA, Z):
 
 def relu_backprop(dA, Z):
     dZ = np.array(dA, copy = True)
-    dZ[Z < 0] = 0.01
+    dZ[Z < 0] = 0
     return dZ
 
 def tanh_backprop(dA, Z):
