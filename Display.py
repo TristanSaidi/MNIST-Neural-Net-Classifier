@@ -1,7 +1,6 @@
 import pygame
 import sys
 import numpy as np
-import tensorflow as tf
 import model
 layers_dims = [784, 200, 100, 10]
 layer_activation_list = ["tanh","tanh","softmax"]
